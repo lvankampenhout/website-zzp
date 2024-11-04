@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-p {
+p,ul,li {
     font-size: 20px;
 }
 
@@ -25,13 +25,15 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    #text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -49,7 +51,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    #content: "\f005";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -111,7 +113,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        #padding-top: 200px;
         padding-bottom: 100px;
     }
 
@@ -184,6 +186,24 @@ section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
+
+section.diensten {
+    #color: #{{ site.color.secondary }};
+    #background: #fff;
+
+    color: #fff;
+    background: #{{ site.color.secondary }};
+
+}
+
+a.about,
+a.about:hover,
+a.about:focus,
+a.about:active,
+a.about.active {
+      outline: 0;
+      color: #{{ site.color.secondary }};
+    }
 
 @media(max-width:767px) {
     section {
