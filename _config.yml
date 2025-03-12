@@ -39,8 +39,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/lvankampenhout
+  - title: bluesky
+    url: https://bsky.app/profile/lvankampenhout.bsky.social
   - title: linkedin
     url: https://www.linkedin.com/in/leo-van-kampenhout-5391843b/
 
